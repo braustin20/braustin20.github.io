@@ -6,10 +6,11 @@ services:
     environment:
       - JEKYLL_ENV
     ports:
-      - 4000:4000
+      - '4000:4000'
+      - '35729:35729'
     container_name: jekyll-TeXt-theme_default
     volumes:
       - ..:/usr/src/app
     stdin_open: true
     tty: true
-    command: bundle exec jekyll serve -H 0.0.0.0 -t
+    command: bundle exec jekyll serve -H 0.0.0.0 -t --livereload --force_polling

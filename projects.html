@@ -1,0 +1,36 @@
+---
+layout: articles
+titles:
+  # @start locale config
+  en      : &EN       Projects
+  en-GB   : *EN
+  en-US   : *EN
+  en-CA   : *EN
+  en-AU   : *EN
+  es-ES   : &ES       Proyectos
+  zh-Hans : &ZH_HANS  项目
+  zh      : *ZH_HANS
+  zh-CN   : *ZH_HANS
+  zh-SG   : *ZH_HANS
+  zh-Hant : &ZH_HANT  項目
+  zh-TW   : *ZH_HANT
+  zh-HK   : *ZH_HANT
+  ko      : &KO       프로젝트
+  ko-KR   : *KO
+  fr      : &FR       Projets
+  fr-BE   : *FR
+  fr-CA   : *FR
+  fr-CH   : *FR
+  fr-FR   : *FR
+  fr-LU   : *FR
+  tr      : &TR       Projeler
+  # @end locale config
+permalink: /projects.html
+---
+<div class="layout--articles">
+  <section class="my-5">
+    {%- include article-list.html articles=site.projects type='item' reverse='true'
+        show_info=true show_excerpt=true show_readmore=true show_cover=true cover_size='md' -%}
+  </section>
+</div>
+

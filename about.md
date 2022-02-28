@@ -7,6 +7,7 @@ titles:
   en-US   : *EN
   en-CA   : *EN
   en-AU   : *EN
+  es-ES   : &ES       Acerca de
   zh-Hans : &ZH_HANS  关于
   zh      : *ZH_HANS
   zh-CN   : *ZH_HANS
