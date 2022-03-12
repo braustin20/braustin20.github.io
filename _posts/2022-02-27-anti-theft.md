@@ -8,6 +8,6 @@ article_header:
     src: /screenshot.jpg
 ---
 
-A project about preventing theft of power tools. More details soon.
+A project about preventing theft of power tools.
 
 <!--more-->
