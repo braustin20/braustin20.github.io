@@ -2,6 +2,10 @@
 title: Space Dreams
 tags: [VR, Google Cardboard, Unity, C#, 3D Modeling, Rendering]
 cover: /assets/projects/space_dreams/space_dreams_thumb.png
+show_edit_on_github: false
+show_subscribe: false
+sharing: true
+license: CC-BY-ND-4.0
 article_header:
   type: overlay
   theme: dark

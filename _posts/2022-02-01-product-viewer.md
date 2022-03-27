@@ -2,6 +2,10 @@
 title: 3D Product Viewer
 tags: [Lowe's, TypeScript, 3D, Web, Babylon.js, AR]
 cover: /assets/projects/product_viewer/product_viewer_thumbnail.png
+show_edit_on_github: false
+show_subscribe: false
+sharing: true
+license: CC-BY-ND-4.0
 article_header:
   type: overlay
   theme: dark

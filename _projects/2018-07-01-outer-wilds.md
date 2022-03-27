@@ -2,6 +2,10 @@
 title: Outer Wilds
 tags: [Unity, C#, Tech Art, Rendering]
 cover: /assets/projects/outer_wilds/outer_wilds_thumbnail.png
+show_edit_on_github: false
+show_subscribe: false
+sharing: true
+license: CC-BY-ND-4.0
 article_header:
   type: overlay
   theme: dark

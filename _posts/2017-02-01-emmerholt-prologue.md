@@ -2,6 +2,10 @@
 title: "Emmerholt: Prologue"
 tags: [Unreal 4, C++, Gameplay, VR, Rendering, Animation, Tech Art]
 cover: /assets/projects/emmerholt/emmerholt_thumbnail.png
+show_edit_on_github: false
+show_subscribe: false
+sharing: true
+license: CC-BY-ND-4.0
 article_header:
   type: overlay
   theme: dark

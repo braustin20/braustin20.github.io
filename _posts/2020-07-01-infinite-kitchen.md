@@ -2,6 +2,10 @@
 title: Infinite Kitchen
 tags: [Lowe's, Unreal 4, Raytracing, Web, React, ]
 cover: /assets/projects/infinite_kitchen/infinite_kitchen_thumbnail.png
+show_edit_on_github: false
+show_subscribe: false
+sharing: true
+license: CC-BY-ND-4.0
 article_header:
   type: overlay
   theme: dark
@@ -12,6 +16,8 @@ article_header:
 Lowe’s Infinite Kitchen is a kitchen visualization experience built using Unreal 4.
 
 <!--more-->
+
+{%- include extensions/youtube.html id='SATZLcdgGdE' -%}
 
 ![image](/assets/projects/infinite_kitchen/hero.png)
 

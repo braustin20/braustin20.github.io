@@ -2,6 +2,10 @@
 title: The Arcslinger
 tags: [Unreal 4, C++, Gameplay, VR, Rendering]
 cover: /assets/projects/the_arcslinger/the_arcslinger_thumbnail.png
+show_edit_on_github: false
+show_subscribe: false
+sharing: true
+license: CC-BY-ND-4.0
 article_header:
   type: overlay
   theme: dark

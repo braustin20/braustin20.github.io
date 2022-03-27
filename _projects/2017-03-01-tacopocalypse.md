@@ -2,6 +2,10 @@
 title: Tacopocalypse
 tags: [Unreal 4, C++, Gameplay, Rendering]
 cover: /assets/projects/tacopocalypse/tacopocalypse_thumbnail.png
+show_edit_on_github: false
+show_subscribe: false
+sharing: true
+license: CC-BY-ND-4.0
 article_header:
   type: overlay
   theme: dark
