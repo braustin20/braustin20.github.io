@@ -1,5 +1,5 @@
 ---
-layout: articles
+layout: landing
 titles:
   # @start locale config
   en      : &EN       Home
@@ -26,6 +26,21 @@ titles:
   tr      : &TR       Ana Sayfa
   # @end locale config
 show_title: false
+show_intro: true
+header: true
+data:
+  sections:
+    - title: My Title
+      excerpt: My excerpt
+    - title: My title 2
+      excerpt: Another excerpt
+article_header:
+  type: overlay
+  align: center
+  height: 80vh
+  theme: dark
+  background_image:
+    src: assets/images/hero.jpg
 articles:
   data_source: paginator.posts
   article_type: BlogPosting
@@ -35,6 +50,7 @@ articles:
   show_readmore: true
   show_info: true
 ---
+
 <div class="layout--home">
   {%- include paginator.html -%}
 </div>

@@ -1,7 +1,7 @@
 ---
 title: Shapesong
 tags: [Unity, C#, UX Engineering, Animation, Oculus, VR, 3D Modeling]
-cover: /assets/projects/shapesong/shapesong_thumbnail.png]
+cover: /assets/projects/shapesong/shapesong_thumbnail.png
 show_edit_on_github: false
 show_subscribe: false
 sharing: true
