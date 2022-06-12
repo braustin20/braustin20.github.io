@@ -75,33 +75,3 @@
 .swiper-demo {
   height: 220px;
 }
-
-.header-image {
-  background-image: url("../images/hero.jpg");
-  background-size: cover;
-  background-position: bottom;
-  height: 24rem;
-  width: 100%;
-  position: absolute;
-  left: 0;
-}
-
-.profile-box {
-  position: relative;
-  height: 24rem;
-  display: block;
-  text-align: center;
-  padding-top: 1rem;
-}
-
-.profile-picture {
-  width: 14rem;
-  display: block;
-  margin: auto;
-}
-
-.profile-picture img {
-  border-radius: 100%;
-  max-width: 100%;
-  margin-top: 1rem;
-}

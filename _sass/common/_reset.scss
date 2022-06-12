@@ -80,6 +80,7 @@ strong {
 }
 
 h1 {
+  font-family: map-get($base, font-family-code);
   font-size: map-get($base, font-size-h1);
   color: $text-color-d;
   @include media-breakpoint-down(md) {

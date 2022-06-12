@@ -14,17 +14,27 @@ footer: false
   }
 </style>
 
+{%- assign _site_author = site.author -%}
+
 <div class="landing-bg"></div>
 <div class="landing-bg landing-bg2"></div>
 <div class="landing-bg landing-bg3"></div>
-<div class="landing-content">
-  <div class="profile-box">
-    <div class="profile-picture">
-      <img src="assets/images/portrait.jpg"></img>
-    </div>
-    <div class="mb-5">
-      <h2>Brandon Austin</h2>
-      <p>Lead Software Engineer - Innovation - Mixed Reality</p>
-    </div>
-</div>
+<div class="landing-container">
+  <div class="landing-content">
+    <div class="profile-box">
+      <div class="profile-picture">
+        <img src="assets/images/portrait.jpg"></img>
+      </div>
+      <div class="mb-3">
+        <h2 class="profile-title">Brandon Austin</h2>
+        <div class="footer__author-links">
+          {%- include author-links.html author=_site_author -%}
+        </div>
+        <p>Lead Software Engineer / Mixed Reality Expert</p>
+        <p>Currently building the future of immersive retail at Lowe's Innovation Labs</p>
+      </div>
 
+      <a class="button button--primary button--rounded button--xl" href="/projects">Projects <i class="fas fa-arrow-right"></i></a>
+      <a class="button button--primary button--rounded button--xl" href="/blog">Blog <i class="fas fa-arrow-right"></i></a>
+  </div>
+</div>

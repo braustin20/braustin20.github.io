@@ -39,7 +39,7 @@ author:
   url       : https://braustin.dev
   avatar    : # path or url of avatar image (square)
   bio       : Full Stack Software Engineer
-  email     :
+  email     : brandonscottaustin@gmail.com
   facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
   twitter   : BAustin_ # "user_name" the last part of your profile url, e.g. https://twitter.com/user_name
   weibo     : # "user_id"   the last part of your profile url, e.g. https://www.weibo.com/user_id/profile?...
@@ -48,7 +48,7 @@ author:
   medium    : # "user_name" the last part of your profile url, e.g. https://medium.com/user_name
   zhihu     : # "user_name" the last part of your profile url, e.g. https://www.zhihu.com/people/user_name
   douban    : # "user_name" the last part of your profile url, e.g. https://www.douban.com/people/user_name
-  linkedin  : # "user_name" the last part of your profile url, e.g. https://www.linkedin.com/in/user_name
+  linkedin  : brandaustin # "user_name" the last part of your profile url, e.g. https://www.linkedin.com/in/user_name
   github    : braustin20 # "user_name" the last part of your profile url, e.g. https://github.com/user_name
   npm       : # "user_name" the last part of your profile url, e.g. https://www.npmjs.com/~user_name
 
@@ -211,12 +211,13 @@ defaults:
       type: posts
     values:
       layout: article
+      nav_key: blog
       sharing: true
       license: true
       aside:
         toc: true
-      show_edit_on_github: true
-      show_subscribe: true
+      show_edit_on_github: false
+      show_subscribe: false
       pageview: true
   - scope:
       path: ""
