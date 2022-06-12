@@ -1,6 +1,6 @@
 ---
 title: Product Renderer Evolution
-tags: [3D, Frontend, Web Development, Babylon.js]
+tags: [3D, TypeScript, JavaScript, Web Development, Babylon.js]
 cover: /assets/blog/product_viewer/Closeup.gif
 show_edit_on_github: false
 show_subscribe: false
