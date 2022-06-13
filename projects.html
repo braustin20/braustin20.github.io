@@ -29,7 +29,8 @@ permalink: /projects.html
 ---
 <div class="layout--articles">
   <section class="my-5">
-    {%- include article-list.html articles=site.projects type='item' reverse='true' group_by='year'
+    {%- assign filteredPosts = site.posts | where_exp: "item", "item.categories contains 'projects'" -%}
+    {%- include article-list.html articles=filteredPosts type='item' reverse='true' group_by='year'
         show_info=true show_excerpt=true show_readmore=true show_cover=true cover_size='md' -%}
   </section>
 </div>
