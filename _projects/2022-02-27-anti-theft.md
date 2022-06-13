@@ -9,8 +9,8 @@ license: CC-BY-ND-4.0
 article_header:
   type: overlay
   theme: dark
-  background_image:
-    src: /screenshot.jpg
+  background_color: LightSlateGray
+  background_image: false
 ---
 
 A project about preventing theft of power tools. More details soon.
