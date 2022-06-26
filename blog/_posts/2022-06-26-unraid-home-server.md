@@ -90,4 +90,6 @@ You will need to know your system's MAC address for this. Simply click the Termi
 
 Now that you are set up, Unraid will take some time to set up the Parity drive. In my case for an 8TB parity drive it took 11hrs, but you are free to use the system while this happens.
 
-Explore the apps page and start setting up your VMs! I will cover more advanced topics in future blog posts.
+I will cover more advanced topics in future blog posts such as setting up subdomains (e.g. plex.mydomain.com), setting up reverse proxies, and advanced VM configurations.
+
+For now, explore the apps page and start setting up your VMs!
