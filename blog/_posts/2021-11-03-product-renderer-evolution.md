@@ -23,7 +23,7 @@ The way consumers buy products is constantly evolving. One of the recent evoluti
 
 ![A GE Electric Range rendered in Lowe's 3D Showroom ([https://www.lowes.com/pd/GE-Smooth-Surface-4-Elements-5-3-cu-ft-Self-Cleaning-Slide-in-Electric-Range-Stainless-Steel-Common-30-in-Actual-29-875-in/1000309761](https://www.lowes.com/pd/GE-Smooth-Surface-4-Elements-5-3-cu-ft-Self-Cleaning-Slide-in-Electric-Range-Stainless-Steel-Common-30-in-Actual-29-875-in/1000309761) ](/assets/blog/product_viewer/Closeup.gif)
 
-A GE Electric Range rendered in Lowe's 3D Showroom ([https://www.lowes.com/pd/GE-Smooth-Surface-4-Elements-5-3-cu-ft-Self-Cleaning-Slide-in-Electric-Range-Stainless-Steel-Common-30-in-Actual-29-875-in/1000309761](https://www.lowes.com/pd/GE-Smooth-Surface-4-Elements-5-3-cu-ft-Self-Cleaning-Slide-in-Electric-Range-Stainless-Steel-Common-30-in-Actual-29-875-in/1000309761)
+<p align="center">A GE Electric Range rendered in Lowe's 3D Showroom (<a>https://www.lowes.com/pd/GE-Smooth-Surface-4-Elements-5-3-cu-ft-Self-Cleaning-Slide-in-Electric-Range-Stainless-Steel-Common-30-in-Actual-29-875-in/1000309761</a>)</p>
 
 Our web based 3D rendering solution has gone through several major evolutions as we've strived for the highest quality and widest feature set possible. I will be walking you through the various iterations and design decisions made along the way.
 
@@ -37,7 +37,8 @@ Three.js was great for getting us started, it has good documentation and is a wi
 
 ![Three.js examples (source: [https://threejs.org/](https://threejs.org/))](/assets/blog/product_viewer/three.png)
 
-Three.js examples (source: [https://threejs.org/](https://threejs.org/))
+<p align="center">Three.js examples (source: <a>https://threejs.org/</a>)</p>
+
 
 ### The Not so Good
 
@@ -45,7 +46,7 @@ The rendering engine's quality was found to be a bit lacking, and Physically Bas
 
 ![Comparison between Three.js and Babylon.js PBR support (source: [https://modelviewer.dev/fidelity/](https://modelviewer.dev/fidelity/))](/assets/blog/product_viewer/compare.png)
 
-Comparison between Three.js and Babylon.js PBR support (source: [https://modelviewer.dev/fidelity/](https://modelviewer.dev/fidelity/))
+<p align="center">Comparison between Three.js and Babylon.js PBR support (source: <a>https://modelviewer.dev/fidelity/</a>)</p>
 
 ## v2 - Babylon.js 3D Showroom
 
@@ -66,7 +67,7 @@ To reach the quality level we desired, we configured a number of Babylon's advan
 
 ![Image-Based Lighting comparison. No IBL (left) is too flat, Babylon (center) has too much color cast, Lowe's IBL (right) is our optimized neutral lighting environment.](/assets/blog/product_viewer/IBL_comparison.png)
 
-Image-Based Lighting comparison. No IBL (left) is too flat, Babylon (center) has too much color cast, Lowe's IBL (right) is our optimized neutral lighting environment.
+<p align="center">Image-Based Lighting comparison. No IBL (left) is too flat, Babylon (center) has too much color cast, Lowe's IBL (right) is our optimized neutral lighting environment.</p>
 
 The realtime shadows help ground the object and accentuate detail. Our IBL setup is a compressed HDR image with a neutral lighting scenario which provides highlights and environment lighting. We use ACES tone mapping to improve the dynamic range of the model's colors and prevent white highlights from being lost against the background.
 
@@ -74,7 +75,7 @@ Today the Lowe's 3D Showroom is live on over 5,500 product pages with high resol
 
 ![A 3D model of an accent table set on [Lowes.com](http://lowes.com) ([https://www.lowes.com/pd/Cheyenne-Products-2-Piece-Walnut-Wood-Accent-Table-Set/1000832542](https://www.lowes.com/pd/Cheyenne-Products-2-Piece-Walnut-Wood-Accent-Table-Set/1000832542))](/assets/blog/product_viewer/tables.gif)
 
-A 3D model of an accent table set on [Lowes.com](http://lowes.com) ([https://www.lowes.com/pd/Cheyenne-Products-2-Piece-Walnut-Wood-Accent-Table-Set/1000832542](https://www.lowes.com/pd/Cheyenne-Products-2-Piece-Walnut-Wood-Accent-Table-Set/1000832542))
+<p align="center">A 3D model of an accent table set on Lowes.com <a>https://www.lowes.com/pd/Cheyenne-Products-2-Piece-Walnut-Wood-Accent-Table-Set/1000832542</a>)</p>
 
 ## v3 - Open Source Product Viewer
 

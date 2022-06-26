@@ -1,6 +1,6 @@
 ---
 title: Lowe's Anti-Theft Power Tools
-tags: [IoT, Python, Blockchain, Bluetooth, Analytics]
+tags: [IoT, Python, Blockchain, Bluetooth, Analytics, Linux]
 cover: /assets/projects/anti_theft/dewalt_pallet.jpg
 show_edit_on_github: false
 show_subscribe: false
