@@ -3,6 +3,19 @@ layout: page
 type: article
 ---
 
+<style>
+  .hero__content {
+    background-color: #2d2d2d75;
+    padding: 20px 0px;
+    border-radius: 8px;
+    margin: 3rem auto;
+  }
+
+  .page__content .main {
+    display: block;
+  }
+</style>
+
 {%- include snippets/assign.html
   target = site.data.variables.default.page.sharing
   source0=layout.sharing source1=page.sharing -%}

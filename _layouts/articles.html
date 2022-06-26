@@ -1,6 +1,19 @@
 ---
 layout: page
 ---
+<style>
+  .page__content {
+    display: flex;
+  }
+
+  .page__main-inner {
+    background-color: unset;
+  }
+
+  .page__content .main {
+    background-color: #262626b8;
+  }
+</style>
 
 {%- assign _page_articles_data_source = page.articles.data_source | default: layout.articles.data_source -%}
 
