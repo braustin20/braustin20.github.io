@@ -82,7 +82,7 @@ You will need a monitor connected for the initial setup, but you can disconnect 
 
 ![Capacity](/assets/blog/unraid/hdmi.png)
 
-Once Unraid boots I strongly recommend that you go into your router settings and assign the machine a static IP. A static IP will let you more easily access the containers and services you set up on your Unraid machine. Without it, your server's IP may change when the power goes out or it reboots. Most services are accessed via the IP and port (e.g. `192.168.0.1:1234`).
+Once Unraid boots I strongly recommend that you go into your router settings and assign the machine a static IP. A static IP will let you more easily access the containers and services you set up on your Unraid machine. Without it, your server's IP may change when the power goes out or it reboots. Most services are accessed via the IP and port (e.g. `192.168.0.xxx:1234`).
 
 You will need to know your system's MAC address for this. Simply click the Terminal button in Unraid's web UI (if set up with defaults, it will be at [http://tower.local]()) and run the command `ifconfig eth0`. The MAC address will be in the format `xx:xx:xx:xx:xx:xx`. Reference your router's manual for instructions on how to set up a static IP.
 
