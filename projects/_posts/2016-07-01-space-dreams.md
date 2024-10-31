@@ -22,11 +22,12 @@ Space Dreams allows you to discover space like you never have before, and to exp
 
 [Google Play Store](https://play.google.com/store/apps/details?id=com.KennedySpaceCenter.SpaceDreams&hl=en_US.)
 
-![image](/assets/projects/Space_Dreams/space_dreams_2.jpg)
+
 
 I was project lead and technical artist on the project tasked with mobile optimization and rendering within Unity3D using supplied NASA 3D assets. The app download had to be small and run on a wide range of devices. The final product was shipped alongside a custom cardboard headset in Kennedy Space Center gift shops.
 
 ### Images
+![image](/assets/projects/Space_Dreams/space_dreams_2.jpg)
 
 ![image](/assets/projects/space_dreams/space_dreams_3.png)
 

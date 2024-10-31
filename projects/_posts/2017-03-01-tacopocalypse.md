@@ -10,7 +10,7 @@ article_header:
   type: overlay
   theme: dark
   background_image:
-    src: /assets/projects/tacopocalypse/tacopocalypse_1.png
+    src: /assets/projects/tacopocalypse/tacopocalypse_1.jpg
 ---
 
 Tacopocalypse is a 3D driving delivery game made in Unreal 4.
@@ -23,4 +23,4 @@ I was project lead and engineer in charge of gameplay programming, lighting and 
 
 ### Images
 
-![image](/assets/projects/tacopocalypse/tacopocalypse_2.png)
+![image](/assets/projects/tacopocalypse/tacopocalypse_2.jpg)
